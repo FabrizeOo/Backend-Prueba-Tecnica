@@ -1,0 +1,41 @@
+## .NET / ASP.NET Core
+bin/
+obj/
+publish/
+
+## User secrets & local settings
+appsettings.Development.json
+appsettings.*.local.json
+
+## Entity Framework Migrations (descomenta si no quieres versionarlas)
+# Migrations/
+
+## Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+*.csproj.user
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
+## OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+## Logs
+*.log
+logs/
+
+## NuGet
+*.nupkg
+project.lock.json
+
+## IDX / Firebase Studio
+.idx/
+
+## Markdown files
+*.md

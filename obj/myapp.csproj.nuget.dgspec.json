@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/user/pruebatecnica/myapp.csproj": {}
+    "C:\\Users\\fabri\\Downloads\\Backend-Prueba-Tecnica\\myapp.csproj": {}
   },
   "projects": {
-    "/home/user/pruebatecnica/myapp.csproj": {
+    "C:\\Users\\fabri\\Downloads\\Backend-Prueba-Tecnica\\myapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/user/pruebatecnica/myapp.csproj",
+        "projectUniqueName": "C:\\Users\\fabri\\Downloads\\Backend-Prueba-Tecnica\\myapp.csproj",
         "projectName": "myapp",
-        "projectPath": "/home/user/pruebatecnica/myapp.csproj",
-        "packagesPath": "/home/user/.nuget/packages/",
-        "outputPath": "/home/user/pruebatecnica/obj/",
+        "projectPath": "C:\\Users\\fabri\\Downloads\\Backend-Prueba-Tecnica\\myapp.csproj",
+        "packagesPath": "C:\\Users\\fabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fabri\\Downloads\\Backend-Prueba-Tecnica\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/user/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\fabri\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -38,11 +38,23 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/nix/store/3hhkyi53ky9qwjj9vjzg0pyq333vlrla-dotnet-sdk-9.0.203/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
